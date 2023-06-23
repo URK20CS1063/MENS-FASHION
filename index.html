@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header ">
+        <nav>
+            <a href="index.html"><img src="logo removed bg.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li>HOME</li>
+                    <li>SHIRTS</li>
+                    <li>PANTS</li>
+                    <li>T-SHIRTS</li>
+                    <li>TROUSERS</li>
+                    <li>CONTACT</li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest Shop</h1>
+            <p>"What you wear is how you present yourself to the world. Fashion should be a form of escapism, and not a form of imprisonment. Fashion is like eating; You shouldn't stick to the same menu."</p>
+            <a href="" class="hero-btn">Visit us to know More</a>
+
+        </div>
+    </section>
+
+    <!--Section 2-->
+    <section>
+        <div class="head">
+        <h1>Available Shirts</h1>
+        <p>Let Awesome People Talk About Your Tee Shirts.</p>
+    </div>
+
+        <div class="row">
+            <div class="shirts-col">
+                <h3></h3>
+                <img src="tshirt1.webp" alt="tshirt1" width="250px" height="250px">
+            </div>
+
+            <div class="shirts-col">
+                <h3></h3>
+                <img src="tshirt3.webp" alt="tshirt3" width="250px" height="250px">
+            </div>
+            <div class="shirts-col">
+                <h3></h3>
+                <img src="tshirt4.webp" alt="tshirt3" width="250px" height="250px">
+            </div>
+            <div class="shirts-col">
+                <h3></h3>
+                <img src="tshirt5.webp" alt="tshirt3" width="250px" height="250px">
+            </div>
+            <div class="shirts-col">
+                <h3></h3>
+                <img src="tshirt6.webp" alt="tshirt3" width="250px" height="250px">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--javascript codes-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
